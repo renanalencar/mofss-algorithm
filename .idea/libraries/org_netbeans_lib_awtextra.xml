@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org-netbeans-lib-awtextra">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/org-netbeans-lib-awtextra.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

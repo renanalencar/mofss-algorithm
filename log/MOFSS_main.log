@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-11-29T11:54:38</date>
+  <millis>1511967278171</millis>
+  <sequence>0</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>hidra.many.metaheuristics.mofssv1.MOFSS_main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Total execution time: 116074ms</message>
+</record>
+<record>
+  <date>2017-11-29T11:54:38</date>
+  <millis>1511967278191</millis>
+  <sequence>1</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>hidra.many.metaheuristics.mofssv1.MOFSS_main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Variables values have been written to file VAR</message>
+</record>
+<record>
+  <date>2017-11-29T11:54:38</date>
+  <millis>1511967278195</millis>
+  <sequence>2</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>hidra.many.metaheuristics.mofssv1.MOFSS_main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Objectives values have been written to file FUN</message>
+</record>
+<record>
+  <date>2017-11-29T11:54:38</date>
+  <millis>1511967278204</millis>
+  <sequence>3</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>hidra.many.metaheuristics.mofssv1.MOFSS_main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Quality indicators values have been writen to file IND</message>
+</record>
+<record>
+  <date>2017-11-29T11:54:38</date>
+  <millis>1511967278207</millis>
+  <sequence>4</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>hidra.many.metaheuristics.mofssv1.MOFSS_main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Quality indicators</message>
+</record>
+<record>
+  <date>2017-11-29T11:54:38</date>
+  <millis>1511967278209</millis>
+  <sequence>5</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>hidra.many.metaheuristics.mofssv1.MOFSS_main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Hypervolume    : 247.5336972785331</message>
+</record>
+<record>
+  <date>2017-11-29T11:54:38</date>
+  <millis>1511967278210</millis>
+  <sequence>6</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>hidra.many.metaheuristics.mofssv1.MOFSS_main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>HypervolumePF  : 0.4974874371859295</message>
+</record>
+<record>
+  <date>2017-11-29T11:54:38</date>
+  <millis>1511967278217</millis>
+  <sequence>7</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>hidra.many.metaheuristics.mofssv1.MOFSS_main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>GD             : 1.7575013626024514</message>
+</record>
+<record>
+  <date>2017-11-29T11:54:38</date>
+  <millis>1511967278221</millis>
+  <sequence>8</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>hidra.many.metaheuristics.mofssv1.MOFSS_main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>IGD            : 1.0556499606579328</message>
+</record>
+<record>
+  <date>2017-11-29T11:54:38</date>
+  <millis>1511967278223</millis>
+  <sequence>9</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>hidra.many.metaheuristics.mofssv1.MOFSS_main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Spread         : 0.6612149783649719</message>
+</record>
+<record>
+  <date>2017-11-29T11:54:38</date>
+  <millis>1511967278232</millis>
+  <sequence>10</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>hidra.many.metaheuristics.mofssv1.MOFSS_main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Epsilon        : 5.312974333304247</message>
+</record>
+<record>
+  <date>2017-11-29T11:54:38</date>
+  <millis>1511967278235</millis>
+  <sequence>11</sequence>
+  <logger>jMetal</logger>
+  <level>INFO</level>
+  <class>hidra.many.metaheuristics.mofssv1.MOFSS_main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Spacing        : 0.11318743339917614</message>
+</record>
+</log>

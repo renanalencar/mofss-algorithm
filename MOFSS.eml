@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component jdk="1.8" jdk_type="JavaSDK">
+	<exclude-output/>
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="jfreechart-1.0.14.jar" scope="COMPILE">
+		<srcroot url="file:///Users/augustoguimaraes/.m2/repository/org/jfree/jfreechart/1.0.14/jfreechart-1.0.14-sources.jar"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jfreechart-1.0.14.jar!/"/>
+	</lib>
+	<lib name="jcommon-1.0.17.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/jcommon-1.0.17.jar!/"/>
+	</lib>
+	<lib name="swing-layout-1.0.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/swing-layout-1.0.1.jar!/"/>
+	</lib>
+	<lib name="org-netbeans-modules-swingapp.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/org-netbeans-modules-swingapp.jar!/"/>
+	</lib>
+	<lib name="openjdk-7-b147.jar" scope="COMPILE">
+		<srcroot url="jar://$MODULE_DIR$/openjdk-7-b147.jar!/"/>
+		<relative-module-src project-related="jar://$PROJECT_DIR$/openjdk-7-b147.jar!/"/>
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/openjdk-7-b147.jar!/"/>
+	</lib>
+</component>

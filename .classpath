@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="jfreechart-1.0.14.jar" sourcepath="/Users/augustoguimaraes/.m2/repository/org/jfree/jfreechart/1.0.14/jfreechart-1.0.14-sources.jar"/>
+	<classpathentry kind="lib" path="jcommon-1.0.17.jar"/>
+	<classpathentry kind="lib" path="swing-layout-1.0.1.jar"/>
+	<classpathentry kind="lib" path="org-netbeans-modules-swingapp.jar"/>
+	<classpathentry kind="lib" path="openjdk-7-b147.jar" sourcepath="openjdk-7-b147.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
