@@ -19,12 +19,12 @@
 //  You should have received a copy of the GNU Lesser General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-package hidra.jmetal.core;
-
-import java.io.Serializable;
+package jmetal.core;
 
 import jmetal.util.Configuration;
 import jmetal.util.JMException;
+
+import java.io.Serializable;
 
 /**
  * This abstract class is the base for defining new types of variables.

@@ -22,21 +22,18 @@
 package jmetal.operators.mutation;
 
 
-import hidra.jmetal.core.Solution;
+import jmetal.core.Solution;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Properties;
 
-import jmetal.operators.mutation.Mutation;
 import jmetal.util.Configuration;
 import jmetal.util.JMException;
 import jmetal.util.PseudoRandom;
 import jmetal.util.wrapper.XReal;
 import jmetal.encodings.solutionType.ArrayRealSolutionType;
 import jmetal.encodings.solutionType.RealSolutionType;
-import jmetal.encodings.variable.ArrayReal;
 
 /**
  * This class implements a polynomial mutation operator. 

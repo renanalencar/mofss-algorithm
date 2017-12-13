@@ -22,17 +22,14 @@
 package jmetal.operators.crossover;
 
 
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionType;
+import jmetal.core.Solution;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Properties;
 
 import jmetal.encodings.solutionType.ArrayRealSolutionType;
 import jmetal.encodings.solutionType.RealSolutionType;
-import jmetal.operators.crossover.Crossover;
 import jmetal.util.Configuration;
 import jmetal.util.JMException;
 import jmetal.util.PseudoRandom;

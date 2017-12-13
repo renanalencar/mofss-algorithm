@@ -22,7 +22,7 @@
 package jmetal.util.comparators;
 
 
-import hidra.jmetal.core.Solution;
+import jmetal.core.Solution;
 
 import java.util.Comparator;
 

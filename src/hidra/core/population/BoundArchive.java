@@ -1,6 +1,6 @@
 package hidra.core.population;
 
-import hidra.jmetal.core.Solution;
+import jmetal.core.Solution;
 import hidra.many.metaheuristics.cega.DominanceComparator2;
 import hidra.many.metaheuristics.fitness.Fitness;
 

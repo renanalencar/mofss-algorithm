@@ -22,12 +22,13 @@
 package jmetal.util.archive;
 
 
-import hidra.jmetal.core.*;
+import jmetal.core.Solution;
+import jmetal.util.Distance;
+import jmetal.util.comparators.CrowdingDistanceComparator;
+import jmetal.util.comparators.DominanceComparator;
+import jmetal.util.comparators.EqualSolutions;
 
 import java.util.Comparator;
-
-import jmetal.util.comparators.*;
-import jmetal.util.Distance;
 
 /**
  * This class implements a bounded archive based on crowding distances (as

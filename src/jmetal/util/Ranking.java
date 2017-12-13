@@ -21,7 +21,7 @@
 
 package jmetal.util;
 
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.SolutionSet;
 import jmetal.util.comparators.DominanceComparator;
 import jmetal.util.comparators.OverallConstraintViolationComparator;
 

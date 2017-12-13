@@ -4,9 +4,8 @@ import jmetal.problems.ProblemFactory;
 import jmetal.util.JMException;
 import hidra.experiments.GlobalSettings;
 import hidra.experiments.util.HIDRASettings;
-import hidra.jmetal.core.Algorithm;
+import jmetal.core.Algorithm;
 import hidra.many.metaheuristics.mopsogdr.MOPSOGDR;
-import hidra.metaheuristics.mopsocdr.MOPSOCDR;
 import hidra.qualityIndicator.QualityIndicator;
 
 public class HIDRA_MOPSOGDR_Settings extends HIDRASettings{

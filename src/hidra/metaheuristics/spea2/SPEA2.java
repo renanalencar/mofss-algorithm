@@ -22,9 +22,7 @@
 package hidra.metaheuristics.spea2;
 
 import hidra.core.population.HIDRAPopulationAlgorithm;
-import hidra.jmetal.core.*;
-
-import java.util.Comparator;
+import jmetal.core.*;
 
 import jmetal.util.*;
 

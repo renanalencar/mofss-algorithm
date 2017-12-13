@@ -23,10 +23,9 @@ package hidra.experiments.settings;
 
 import hidra.experiments.GlobalSettings;
 import hidra.experiments.util.HIDRASettings;
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Operator;
+import jmetal.core.Algorithm;
+import jmetal.core.Operator;
 import hidra.many.metaheuristics.spea2mod.SPEA2GD;
-import hidra.metaheuristics.spea2.SPEA2;
 import hidra.qualityIndicator.QualityIndicator;
 
 import java.util.HashMap;

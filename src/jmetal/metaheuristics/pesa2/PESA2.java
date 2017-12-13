@@ -22,14 +22,13 @@
 package jmetal.metaheuristics.pesa2;
 
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 
 import java.util.HashMap;
 
 import jmetal.operators.selection.PESA2Selection;
 import jmetal.util.archive.AdaptiveGridArchive;
 import jmetal.util.JMException;
-import jmetal.util.PseudoRandom;
 
 /**
  * This class implements the PESA2 algorithm. 

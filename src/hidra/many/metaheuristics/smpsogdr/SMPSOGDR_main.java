@@ -22,7 +22,7 @@
 package hidra.many.metaheuristics.smpsogdr;
 
 import hidra.experiments.Paramenters;
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import hidra.qualityIndicator.QualityIndicator;
 
 import java.io.IOException;
@@ -30,10 +30,7 @@ import java.io.IOException;
 import jmetal.operators.mutation.Mutation;
 import jmetal.operators.mutation.MutationFactory;
 import jmetal.problems.*;
-import jmetal.problems.ZDT.*;
-import jmetal.problems.WFG.*;
 import jmetal.problems.DTLZ.*;
-import jmetal.problems.LZ09.* ;
 import jmetal.util.Configuration;
 import jmetal.util.JMException ;
 

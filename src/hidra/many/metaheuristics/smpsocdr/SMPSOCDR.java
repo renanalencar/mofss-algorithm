@@ -3,7 +3,7 @@ Federal University of Pernambuco - UFPE
 Center of Informatics (Cin)
 
 University of Pernambuco - UPE
-Engenharia da Computação - Ecomp
+Engenharia da Computaï¿½ï¿½o - Ecomp
 
 This code was created in order to study the scalability
 of the Multiobjective Evolutionary Algorithms in
@@ -21,10 +21,10 @@ package hidra.many.metaheuristics.smpsocdr;
 
 
 import hidra.core.population.HIDRAPopulationAlgorithm;
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 
 import java.util.Comparator;
 import java.util.HashMap;

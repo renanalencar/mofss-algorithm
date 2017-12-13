@@ -2,9 +2,8 @@ package hidra.experiments.settings;
 
 import hidra.experiments.GlobalSettings;
 import hidra.experiments.util.HIDRASettings;
-import hidra.jmetal.core.Algorithm;
+import jmetal.core.Algorithm;
 import hidra.many.metaheuristics.smpsogdr.SMPSOGDR;
-import hidra.metaheuristics.smpso.SMPSO;
 import hidra.qualityIndicator.QualityIndicator;
 
 import java.util.HashMap;

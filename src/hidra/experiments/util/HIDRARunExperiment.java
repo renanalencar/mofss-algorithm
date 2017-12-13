@@ -22,9 +22,9 @@
 package hidra.experiments.util;
 
 
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Algorithm;
+import jmetal.core.Problem;
+import jmetal.core.SolutionSet;
 
 import java.io.File;
 import java.util.HashMap;

@@ -21,10 +21,9 @@
 
 package jmetal.encodings.solutionType;
 
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.SolutionType;
-import hidra.jmetal.core.Variable;
-import jmetal.encodings.variable.ArrayInt;
+import jmetal.core.Problem;
+import jmetal.core.SolutionType;
+import jmetal.core.Variable;
 import jmetal.encodings.variable.ArrayReal;
 
 /**

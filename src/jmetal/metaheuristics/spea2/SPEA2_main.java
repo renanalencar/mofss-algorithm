@@ -21,25 +21,20 @@
 
 package jmetal.metaheuristics.spea2;
 
-import hidra.gui.MOPSOCDRSJFrame;
-import hidra.jmetal.core.*;
 import hidra.qualityIndicator.QualityIndicator;
-
-import java.io.IOException;
-
-import jmetal.metaheuristics.smpso.SMPSO;
-import jmetal.operators.crossover.*;
-import jmetal.operators.mutation.*;
-import jmetal.operators.selection.*;
-import jmetal.problems.*                  ;
-import jmetal.problems.ZDT.*;
-import jmetal.problems.WFG.*;
-import jmetal.problems.DTLZ.*;
-import jmetal.problems.LZ09.* ;
-
+import jmetal.core.Algorithm;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
+import jmetal.core.SolutionSet;
+import jmetal.operators.crossover.CrossoverFactory;
+import jmetal.operators.mutation.MutationFactory;
+import jmetal.operators.selection.SelectionFactory;
+import jmetal.problems.Kursawe;
+import jmetal.problems.ProblemFactory;
 import jmetal.util.Configuration;
 import jmetal.util.JMException;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
@@ -164,7 +159,7 @@ public class SPEA2_main {
     spreadQI[0] = indicators.getSpread(population);
     spacingQI[0] = indicators.getSpacing(population);
     
-    System.out.println("-----Execução: 1/" + qtdExec + " Time: " + estimatedTime);
+    System.out.println("-----ExecuÔøΩÔøΩo: 1/" + qtdExec + " Time: " + estimatedTime);
     System.out.println("     HV: " + hypevolumeQI[0] + " | SPA: " + spacingQI[0] + " | SPR: " + spreadQI[0] + " | EPS: " + epsilonQI[0]);
     
     for (int i=1; i<qtdExec; i++){
@@ -177,7 +172,7 @@ public class SPEA2_main {
         spreadQI[i] = indicators.getSpread(population);
         spacingQI[i] = indicators.getSpacing(population);
         
-        System.out.println("-----Execução: " + (i+1) + "/" + qtdExec + " Time: " + estimatedTime);
+        System.out.println("-----ExecuÔøΩÔøΩo: " + (i+1) + "/" + qtdExec + " Time: " + estimatedTime);
         System.out.println("     HV: " + hypevolumeQI[i] + " | SPA: " + spacingQI[i] + " | SPR: " + spreadQI[i] + " | EPS: " + epsilonQI[i]);
     }
     population.printMultipleQIToFile("results/Graphs/"+"SPEA2-"+problem.getName()+"-HYPERVOLUME", hypevolumeQI);

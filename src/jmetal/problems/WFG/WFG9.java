@@ -5,8 +5,8 @@
  */
 package jmetal.problems.WFG;
 
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.Variable;
+import jmetal.core.Solution;
+import jmetal.core.Variable;
 import jmetal.util.JMException;
 
 

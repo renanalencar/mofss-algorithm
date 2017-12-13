@@ -19,13 +19,13 @@
 //  You should have received a copy of the GNU Lesser General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-package hidra.jmetal.core;
-
-import java.io.Serializable;
-import java.util.Map;
-import java.util.HashMap;
+package jmetal.core;
 
 import jmetal.util.JMException;
+
+import java.io.Serializable;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Class representing an operator

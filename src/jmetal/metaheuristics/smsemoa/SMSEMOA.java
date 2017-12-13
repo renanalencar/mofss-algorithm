@@ -20,7 +20,7 @@
 
 package jmetal.metaheuristics.smsemoa;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import hidra.qualityIndicator.Hypervolume;
 import hidra.qualityIndicator.QualityIndicator;
 import hidra.qualityIndicator.util.MetricsUtil;

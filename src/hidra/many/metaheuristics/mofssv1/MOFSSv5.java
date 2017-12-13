@@ -1,24 +1,15 @@
 package hidra.many.metaheuristics.mofssv1;
 
 import java.util.Comparator;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import org.jfree.chart.ChartPanel;
 
 
-import com.sun.tools.internal.xjc.model.Populatable;
-
 import hidra.gui.PlotManager;
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import hidra.qualityIndicator.Hypervolume;
 import hidra.qualityIndicator.QualityIndicator;
-import jmetal.encodings.solutionType.ArrayRealSolutionType;
-import jmetal.encodings.solutionType.RealSolutionType;
-import jmetal.encodings.variable.ArrayReal;
 import jmetal.util.archive.CrowdingArchive;
-import jmetal.util.comparators.CrowdingComparator;
-import jmetal.util.comparators.CrowdingDistanceComparator;
 import jmetal.util.comparators.DominanceComparator;
 import jmetal.util.wrapper.XReal;
 import jmetal.util.*;
@@ -27,7 +18,7 @@ import jmetal.util.*;
  * This class implements the MOFSS algorithm. 
  * 
  * 
- *     VERSÌO COM ARQUIVO EXTERNO DAS SOLU‚ÍES NÌO-DOMINADAS INFLUENCIANDO NO MOVIMENTO INDIVIDUAL
+ *     VERSï¿½O COM ARQUIVO EXTERNO DAS SOLUï¿½ï¿½ES Nï¿½O-DOMINADAS INFLUENCIANDO NO MOVIMENTO INDIVIDUAL
  *     
  *     
  * 
@@ -120,8 +111,8 @@ public class MOFSSv5 extends Algorithm {
 		  XReal particle = new XReal (particles_.get(i));
 		  int leadersRandom = (int) (Math.random()*leaders_.size());
 		  
-		  // S— funciona se o tipo for RealSolutionType
-		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimens‹o de cada peixe
+		  // Sï¿½ funciona se o tipo for RealSolutionType
+		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimensï¿½o de cada peixe
 			  //particle.setValue(j, PseudoRandom.randDouble(problem_.getLowerLimit(j), problem_.getUpperLimit(j)));
 			  if (leaders_.size() < 1){
 				  particleCopy.getDecisionVariables()[j].setValue(particleCopy.getDecisionVariables()[j].getValue() + 
@@ -151,12 +142,12 @@ public class MOFSSv5 extends Algorithm {
 		  
 		  /*
 		   * 
-		   *  VERIFICAR O PORQUE DO PROBLEMA COM A ALIMENTA‚ÌO DO CARDUME!
+		   *  VERIFICAR O PORQUE DO PROBLEMA COM A ALIMENTAï¿½ï¿½O DO CARDUME!
 		   * 
 		   */
 		  
 		  int flag = dominance_.compare(particleCopy, particles_.get(i));
-		  if (flag != 0) { // a nova part’cula Ž melhor que a part’cula anterior  
+		  if (flag != 0) { // a nova partï¿½cula ï¿½ melhor que a partï¿½cula anterior  
 			  //calculateFeedOper(olderParticle, i, flag); // aumentar o peso do peixe
 			  particles_.get(i).marked();
 			  count_++;
@@ -232,7 +223,7 @@ public class MOFSSv5 extends Algorithm {
 	  for (int i=0; i<swarmSize_; i++){
 		  XReal particle = new XReal (particles_.get(i));
 		  
-		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimens‹o de cada peixe
+		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimensï¿½o de cada peixe
 			  particle.setValue(j, particle.getValue(j) + imDirection[j]);
 			  
 			  if (particle.getValue(j) < problem_.getLowerLimit(j)) {
@@ -388,7 +379,7 @@ public class MOFSSv5 extends Algorithm {
           }
 		  
 		  System.out.println("Tamanho aquivo externo: " + leaders_.size());
-		  System.out.println("############### Itera‹o " + iterations_ + " ############### \nQtd particulas dominadas: " + count_);
+		  System.out.println("############### Iteraï¿½ï¿½o " + iterations_ + " ############### \nQtd particulas dominadas: " + count_);
 		  iterations_++;
 	  }
 	  

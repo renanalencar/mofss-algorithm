@@ -22,7 +22,7 @@
 package jmetal.metaheuristics.moead;
 
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;

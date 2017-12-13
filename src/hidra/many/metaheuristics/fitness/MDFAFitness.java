@@ -1,7 +1,7 @@
 package hidra.many.metaheuristics.fitness;
 
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 
 public class MDFAFitness implements Fitness{
 

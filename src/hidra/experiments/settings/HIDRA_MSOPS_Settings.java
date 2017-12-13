@@ -2,7 +2,7 @@ package hidra.experiments.settings;
 
 import hidra.experiments.GlobalSettings;
 import hidra.experiments.util.HIDRASettings;
-import hidra.jmetal.core.Algorithm;
+import jmetal.core.Algorithm;
 import hidra.many.metaheuristics.msops.MSOPS;
 import hidra.qualityIndicator.QualityIndicator;
 

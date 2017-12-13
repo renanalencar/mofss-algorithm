@@ -2,11 +2,8 @@ package hidra.experiments.settings;
 
 import hidra.experiments.GlobalSettings;
 import hidra.experiments.util.HIDRASettings;
-import hidra.jmetal.core.Algorithm;
-import hidra.many.metaheuristics.smopsomdfa.SMPSOMDFA;
-import hidra.many.metaheuristics.smopsomdfa.SMPSOMDFAv2;
+import jmetal.core.Algorithm;
 import hidra.many.metaheuristics.smopsomdfa.SMPSOMDFAv3;
-import hidra.many.metaheuristics.smpsogdr2.SMPSOGDR2;
 import hidra.qualityIndicator.QualityIndicator;
 
 import java.util.HashMap;

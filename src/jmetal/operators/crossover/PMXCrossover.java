@@ -22,15 +22,12 @@
 package jmetal.operators.crossover;
 
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Properties;
 
-import jmetal.encodings.solutionType.BinaryRealSolutionType;
-import jmetal.encodings.solutionType.BinarySolutionType;
 import jmetal.encodings.solutionType.PermutationSolutionType;
 import jmetal.encodings.variable.*;
 import jmetal.util.Configuration;

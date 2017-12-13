@@ -21,7 +21,7 @@
 
 package jmetal.util.archive;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import jmetal.util.comparators.DominanceComparator;
 import jmetal.util.AdaptiveGrid;
 import java.util.*;

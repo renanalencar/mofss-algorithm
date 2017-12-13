@@ -23,8 +23,7 @@ package hidra.many.metaheuristics.cega;
 
 
 
-import hidra.jmetal.core.SolutionSet;
-import jmetal.util.comparators.DominanceComparator;
+import jmetal.core.SolutionSet;
 import jmetal.util.comparators.OverallConstraintViolationComparator;
 
 import java.util.*;

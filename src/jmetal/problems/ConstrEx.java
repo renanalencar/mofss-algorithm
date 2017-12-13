@@ -22,15 +22,11 @@
 package jmetal.problems;
 
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 
-import java.io.IOException;
-
-import jmetal.encodings.solutionType.ArrayRealSolutionType;
 import jmetal.encodings.solutionType.BinaryRealSolutionType;
 import jmetal.encodings.solutionType.RealSolutionType;
 import jmetal.util.JMException;
-import jmetal.util.Configuration.*;
 
 /**
  * Class representing problem Constr_Ex

@@ -21,7 +21,7 @@
 
 package jmetal.metaheuristics.paes;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import jmetal.util.comparators.*;
 import jmetal.util.archive.AdaptiveGridArchive;
 import jmetal.util.JMException;

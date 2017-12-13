@@ -6,51 +6,22 @@
 package hidra.gui;
 
 
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
-
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.geom.Ellipse2D;
-import java.util.ArrayList;
-
+import jmetal.core.Problem;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 import jmetal.util.JMException;
-
-
-
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartPanel;
-import org.jfree.chart.ChartUtilities;
 import org.jfree.chart.JFreeChart;
-import org.jfree.chart.annotations.XYTitleAnnotation;
-import org.jfree.chart.axis.AxisLocation;
 import org.jfree.chart.axis.NumberAxis;
-import org.jfree.chart.axis.ValueAxis;
-import org.jfree.chart.labels.StandardXYItemLabelGenerator;
-import org.jfree.chart.labels.StandardXYToolTipGenerator;
-import org.jfree.chart.plot.IntervalMarker;
 import org.jfree.chart.plot.PlotOrientation;
-import org.jfree.chart.plot.ValueMarker;
 import org.jfree.chart.plot.XYPlot;
-import org.jfree.chart.renderer.LookupPaintScale;
-import org.jfree.chart.renderer.xy.XYBubbleRenderer;
-import org.jfree.chart.renderer.xy.XYDotRenderer;
-import org.jfree.chart.renderer.xy.XYItemRenderer;
 import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
-import org.jfree.chart.renderer.xy.XYShapeRenderer;
-import org.jfree.chart.renderer.xy.XYStepRenderer;
-import org.jfree.chart.title.LegendTitle;
-import org.jfree.chart.title.PaintScaleLegend;
-import org.jfree.data.xy.DefaultXYZDataset;
-import org.jfree.data.xy.XYDataset;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
-import org.jfree.data.xy.XYZDataset;
-import org.jfree.ui.Layer;
-import org.jfree.ui.RectangleEdge;
-import org.jfree.ui.RectangleInsets;
+
+import java.awt.*;
+import java.awt.geom.Ellipse2D;
 
 /**
  *

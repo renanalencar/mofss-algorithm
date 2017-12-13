@@ -4,7 +4,7 @@ import jmetal.problems.DTLZ.DTLZ1;
 import jmetal.problems.DTLZ.DTLZ2;
 import jmetal.problems.DTLZ.DTLZ3;
 import jmetal.problems.DTLZ.DTLZ4;
-import hidra.jmetal.core.Problem;
+import jmetal.core.Problem;
 
 public class ImprovedMaximumSpread {
 

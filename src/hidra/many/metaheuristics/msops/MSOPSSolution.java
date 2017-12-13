@@ -1,12 +1,8 @@
 package hidra.many.metaheuristics.msops;
 
 
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
-
-import java.util.List;
-import java.util.Vector;
-
+import jmetal.core.Problem;
+import jmetal.core.Solution;
 
 
 public class MSOPSSolution extends Solution{

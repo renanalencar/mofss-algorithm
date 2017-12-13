@@ -21,19 +21,16 @@
 
 package jmetal.experiments.settings;
 
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
+import jmetal.core.Algorithm;
+import jmetal.core.Operator;
 import hidra.qualityIndicator.QualityIndicator;
 import jmetal.metaheuristics.moead.*;
 
 import java.util.HashMap;
-import java.util.Properties;
 
 import jmetal.experiments.Settings;
 import jmetal.operators.crossover.CrossoverFactory;
 import jmetal.operators.mutation.MutationFactory;
-import jmetal.operators.selection.SelectionFactory;
 import jmetal.problems.ProblemFactory;
 import jmetal.util.JMException;
 

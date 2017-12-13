@@ -3,7 +3,7 @@ Federal University of Pernambuco - UFPE
 Center of Informatics (Cin)
 
 University of Pernambuco - UPE
-Engenharia da ComputaÁ„o - Ecomp
+Engenharia da ComputaÔøΩÔøΩo - Ecomp
 
 This code was created in order to study the scalability
 of the Multiobjective Evolutionary Algorithms in
@@ -42,20 +42,13 @@ package hidra.metaheuristics.mopsocdr;
 
 
 import hidra.experiments.Paramenters;
-import hidra.gui.MOPSOCDRSJFrame;
-import hidra.jmetal.core.*;
-import hidra.many.metaheuristics.mofssv1.MOFSSv4;
+import jmetal.core.*;
 import hidra.qualityIndicator.QualityIndicator;
 
 import java.io.IOException;
 
 import jmetal.operators.mutation.Mutation;
-import jmetal.operators.mutation.MutationFactory;
 import jmetal.problems.*;
-import jmetal.problems.ZDT.*;
-import jmetal.problems.WFG.*;
-import jmetal.problems.DTLZ.*;
-import jmetal.problems.LZ09.* ;
 import jmetal.util.Configuration;
 import jmetal.util.JMException ;
 
@@ -164,7 +157,7 @@ public class MOPSOCDR_main {
     spreadQI[0] = indicators.getSpread(population);
     spacingQI[0] = indicators.getSpacing(population);
     
-    System.out.println("-----Execução: 1/" + qtdExec + " Time: " + estimatedTime);
+    System.out.println("-----ExecuÔøΩÔøΩo: 1/" + qtdExec + " Time: " + estimatedTime);
     System.out.println("     HV: " + hypevolumeQI[0] + " | SPA: " + spacingQI[0] + " | SPR: " + spreadQI[0] + " | EPS: " + epsilonQI[0]);
     
     for (int i=1; i<qtdExec; i++){
@@ -177,7 +170,7 @@ public class MOPSOCDR_main {
         spreadQI[i] = indicators.getSpread(population);
         spacingQI[i] = indicators.getSpacing(population);
         
-        System.out.println("-----Execução: " + (i+1) + "/" + qtdExec + " Time: " + estimatedTime);
+        System.out.println("-----ExecuÔøΩÔøΩo: " + (i+1) + "/" + qtdExec + " Time: " + estimatedTime);
         System.out.println("     HV: " + hypevolumeQI[i] + " | SPA: " + spacingQI[i] + " | SPR: " + spreadQI[i] + " | EPS: " + epsilonQI[i]);
     }
     population.printMultipleQIToFile("results/Graphs/"+"MOPOSCDR-"+problem.getName()+"-HYPERVOLUME", hypevolumeQI);

@@ -21,7 +21,7 @@
 
 package jmetal.experiments.settings;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import hidra.qualityIndicator.QualityIndicator;
 
 import java.util.HashMap;

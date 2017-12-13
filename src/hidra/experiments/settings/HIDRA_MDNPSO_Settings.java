@@ -2,8 +2,7 @@ package hidra.experiments.settings;
 
 import hidra.experiments.GlobalSettings;
 import hidra.experiments.util.HIDRASettings;
-import hidra.jmetal.core.Algorithm;
-import hidra.metaheuristics.cssmopso.CSSMOPSO;
+import jmetal.core.Algorithm;
 import hidra.metaheuristics.mDNPSO.M_DNPSO;
 import hidra.qualityIndicator.QualityIndicator;
 import jmetal.problems.ProblemFactory;

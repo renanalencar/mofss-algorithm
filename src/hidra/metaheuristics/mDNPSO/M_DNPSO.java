@@ -1,10 +1,10 @@
 package hidra.metaheuristics.mDNPSO;
 
 import hidra.core.population.HIDRAPopulationAlgorithm;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
-import hidra.jmetal.core.Variable;
+import jmetal.core.Problem;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
+import jmetal.core.Variable;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -221,7 +221,7 @@ public class M_DNPSO extends HIDRAPopulationAlgorithm{
     
     private ArrayList<Solution> trunkNeighbors(ArrayList<Solution> neighbors, int MNEARESTNEIGHBORS) {
 
-        // se o tamanho do arquivo externo for maior que o máximo, remove o excesso
+        // se o tamanho do arquivo externo for maior que o mï¿½ximo, remove o excesso
         if (neighbors.size() > MNEARESTNEIGHBORS) {
 
             for (int i = neighbors.size() - 1; i >= MNEARESTNEIGHBORS; i--) {

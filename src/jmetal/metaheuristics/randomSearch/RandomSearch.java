@@ -21,7 +21,7 @@
 
 package jmetal.metaheuristics.randomSearch;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import jmetal.util.*;
 
 /**

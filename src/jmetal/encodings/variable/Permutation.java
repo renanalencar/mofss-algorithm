@@ -21,9 +21,7 @@
 
 package jmetal.encodings.variable;
 
-import hidra.jmetal.core.Variable;
-import jmetal.util.PseudoRandom;
-import jmetal.util.Configuration.*;
+import jmetal.core.Variable;
 
 /**
  * Class implementing a permutation of integer decision variable

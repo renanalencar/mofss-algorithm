@@ -22,7 +22,7 @@
 package jmetal.metaheuristics.cellde;
 
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 
 import java.util.Comparator;
 

@@ -1,17 +1,12 @@
 package hidra.many.metaheuristics.smpsoms;
 
 
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 import hidra.many.metaheuristics.fitness.Fitness;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
-import java.util.Vector;
-
-
-import sun.misc.Cleaner;
 
 
 public class MSOPSFitness implements Fitness{

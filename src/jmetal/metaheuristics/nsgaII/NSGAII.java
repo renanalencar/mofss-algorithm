@@ -21,7 +21,7 @@
 
 package jmetal.metaheuristics.nsgaII;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import hidra.qualityIndicator.QualityIndicator;
 import jmetal.util.comparators.CrowdingComparator;
 import jmetal.util.*;

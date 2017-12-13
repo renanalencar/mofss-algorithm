@@ -22,21 +22,17 @@
 package jmetal.operators.crossover;
 
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Properties;
 
-import jmetal.encodings.solutionType.ArrayRealSolutionType;
 import jmetal.encodings.solutionType.PermutationSolutionType;
-import jmetal.encodings.solutionType.RealSolutionType;
 import jmetal.encodings.variable.*;
 import jmetal.util.Configuration;
 import jmetal.util.JMException;
 import jmetal.util.PseudoRandom;
-import jmetal.util.Configuration.*;
 
 /**
  * This class allows to apply a two points crossover operator using two parent

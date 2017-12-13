@@ -23,7 +23,7 @@ package hidra.many.metaheuristics.spea2mod;
 
 
 import hidra.core.util.Util;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.SolutionSet;
 import hidra.many.metaheuristics.fitness.GDFitness;
 
 import java.util.ArrayList;

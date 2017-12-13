@@ -21,8 +21,7 @@
 
 package jmetal.util;
 
-import hidra.jmetal.core.*;
-import jmetal.util.PseudoRandom;
+import jmetal.core.*;
 
 /**
  * This class defines an adaptive grid over a SolutionSet as the one used the

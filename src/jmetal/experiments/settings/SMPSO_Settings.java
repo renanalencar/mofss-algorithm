@@ -21,24 +21,17 @@
 
 package jmetal.experiments.settings;
 
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Problem;
+import jmetal.core.Algorithm;
 import hidra.qualityIndicator.QualityIndicator;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.HashMap;
-import java.util.Iterator;
+
 import jmetal.metaheuristics.smpso.*;
-import java.util.Properties;
 
 import jmetal.experiments.Settings;
-import jmetal.util.PropUtils;
 import jmetal.operators.mutation.Mutation;
 import jmetal.operators.mutation.MutationFactory;
 import jmetal.problems.ProblemFactory;
-import jmetal.problems.ZDT.ZDT1;
 import jmetal.util.JMException;
 
 /**

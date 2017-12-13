@@ -2,7 +2,7 @@ package hidra.many.metaheuristics.comparators;
 
 import java.util.Comparator;
 
-import hidra.jmetal.core.Solution;
+import jmetal.core.Solution;
 
 public class GDComparator implements Comparator<Solution>{
 

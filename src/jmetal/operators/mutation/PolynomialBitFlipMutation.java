@@ -21,15 +21,13 @@
 package jmetal.operators.mutation;
 
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
 import jmetal.encodings.solutionType.ArrayRealAndBinarySolutionType;
-import jmetal.encodings.solutionType.ArrayRealSolutionType;
-import jmetal.encodings.solutionType.RealSolutionType;
 import jmetal.encodings.variable.Binary;
 import jmetal.util.Configuration;
 import jmetal.util.JMException;

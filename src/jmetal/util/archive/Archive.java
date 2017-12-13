@@ -20,7 +20,7 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 package jmetal.util.archive;
 
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.SolutionSet;
 
 /**
  * This class represents the super class for archive objects.

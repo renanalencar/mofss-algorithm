@@ -21,23 +21,21 @@
 
 package hidra.metaheuristics.spea2;
 
-import hidra.jmetal.core.*;
 import hidra.qualityIndicator.QualityIndicator;
-
-import java.io.IOException;
-
-import jmetal.operators.crossover.*;
-import jmetal.operators.mutation.*;
-import jmetal.operators.selection.*;
-import jmetal.problems.*                  ;
-import jmetal.problems.ZDT.*;
-import jmetal.problems.WFG.*;
-import jmetal.problems.DTLZ.*;
-import jmetal.problems.LZ09.* ;
-
+import jmetal.core.Algorithm;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
+import jmetal.core.SolutionSet;
+import jmetal.operators.crossover.CrossoverFactory;
+import jmetal.operators.mutation.MutationFactory;
+import jmetal.operators.selection.SelectionFactory;
+import jmetal.problems.Kursawe;
+import jmetal.problems.ProblemFactory;
+import jmetal.problems.ZDT.ZDT2;
 import jmetal.util.Configuration;
 import jmetal.util.JMException;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;

@@ -1,12 +1,9 @@
 package hidra.many.metaheuristics.msops;
 
 
-import hidra.jmetal.core.Solution;
+import jmetal.core.Solution;
 
 import java.util.Comparator;
-
-
-import org.omg.CORBA.portable.IndirectionException;
 
 
 public class MSOPSComparator implements Comparator<Solution>{

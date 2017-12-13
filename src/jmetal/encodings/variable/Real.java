@@ -21,11 +21,10 @@
 
 package jmetal.encodings.variable;
 
-import hidra.jmetal.core.Variable;
+import jmetal.core.Variable;
 import jmetal.util.Configuration;
 import jmetal.util.JMException;
 import jmetal.util.PseudoRandom;
-import jmetal.util.Configuration.*;
 
 
 /**

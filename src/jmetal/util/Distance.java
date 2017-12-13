@@ -21,7 +21,7 @@
 
 package jmetal.util;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import jmetal.util.comparators.ObjectiveComparator;
 
 /**

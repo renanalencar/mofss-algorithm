@@ -1,15 +1,11 @@
 package hidra.many.metaheuristics.msops;
 
 
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 
 import java.util.Collections;
-import java.util.List;
 import java.util.Vector;
-
-
-import sun.misc.Cleaner;
 
 
 public class MSOPSFitness2{

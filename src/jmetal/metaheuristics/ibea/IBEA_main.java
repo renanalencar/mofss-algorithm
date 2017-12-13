@@ -21,7 +21,7 @@
 
 package jmetal.metaheuristics.ibea;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import hidra.qualityIndicator.QualityIndicator;
 
 import java.io.IOException;
@@ -32,9 +32,6 @@ import jmetal.operators.mutation.*;
 import jmetal.operators.selection.*;
 import jmetal.problems.*                  ;
 import jmetal.problems.ZDT.*;
-import jmetal.problems.WFG.*;
-import jmetal.problems.DTLZ.*;
-import jmetal.problems.LZ09.* ;
 
 import jmetal.util.Configuration;
 import jmetal.util.JMException;

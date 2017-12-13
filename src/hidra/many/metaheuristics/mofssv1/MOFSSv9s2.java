@@ -1,23 +1,15 @@
 package hidra.many.metaheuristics.mofssv1;
 
 import java.util.Comparator;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import org.jfree.chart.ChartPanel;
 
 
-import com.sun.tools.internal.xjc.model.Populatable;
-
 import hidra.gui.PlotManager;
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import hidra.qualityIndicator.Hypervolume;
 import hidra.qualityIndicator.QualityIndicator;
-import jmetal.encodings.solutionType.ArrayRealSolutionType;
-import jmetal.encodings.solutionType.RealSolutionType;
-import jmetal.encodings.variable.ArrayReal;
 import jmetal.util.archive.CrowdingArchive;
-import jmetal.util.comparators.CrowdingComparator;
 import jmetal.util.comparators.CrowdingDistanceComparator;
 import jmetal.util.comparators.DominanceComparator;
 import jmetal.util.wrapper.XReal;
@@ -27,7 +19,7 @@ import jmetal.util.*;
  * This class implements the MOFSS algorithm. 
  * 
  * 
- *     VERSÌO sem DeltaF (substituido por DeltaW)
+ *     VERSï¿½O sem DeltaF (substituido por DeltaW)
  *     
  *     
  * 
@@ -120,7 +112,7 @@ public class MOFSSv9s2 extends Algorithm {
 	  
 	  System.out.println(problem_.getName());
 	  System.out.println("Quantidade objetivos: " + problem_.getNumberOfObjectives());
-	  System.out.println("Quantidade dimens›es: " + problem_.getNumberOfVariables());
+	  System.out.println("Quantidade dimensï¿½es: " + problem_.getNumberOfVariables());
 	  System.out.println(problem_.getUpperLimit(0) + " | " + problem_.getLowerLimit(0) + " | " + this.stepini_);
   }
   
@@ -229,8 +221,8 @@ public class MOFSSv9s2 extends Algorithm {
 			  
 			  //System.out.println("CDMAX["+ leadersRoletteWheel + "] = " + front.get(leadersRoletteWheel).getCrowdingDistance());
 			  
-			  // S— funciona se o tipo for RealSolutionType
-			  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimens‹o de cada peixe
+			  // Sï¿½ funciona se o tipo for RealSolutionType
+			  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimensï¿½o de cada peixe
 				  double movement = (front.get(leadersRoletteWheel).getDecisionVariables()[j].getValue() - particle.getValue(j)) / euclideanDistance;
 				  
 				  delta_x_[i][j] = movement * step_ * rand;
@@ -362,7 +354,7 @@ public class MOFSSv9s2 extends Algorithm {
 	  for (int i=0; i<swarmSize_; i++){
 		  XReal particle = new XReal (particles_.get(i));
 		  
-		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimens‹o de cada peixe
+		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimensï¿½o de cada peixe
 			  //System.out.println(particles_.get(i).getDecisionVariables()[j].getValue());
 			  particle.setValue(j, particle.getValue(j) + imDirection[j]);
 			  //System.out.println(particle.getValue(j));
@@ -572,7 +564,7 @@ public class MOFSSv9s2 extends Algorithm {
 	  while(iterations_ <= maxIterations_){
 		  countD_ = countND_ = countIND_ = 0;
 		  
-		  System.out.println("############### Itera‹o " + iterations_ + " ############### ");
+		  System.out.println("############### Iteraï¿½ï¿½o " + iterations_ + " ############### ");
 		  System.out.println("Tamanho aquivo externo: " + leaders_.size());
 		  
 		  plotGraph();
@@ -589,7 +581,7 @@ public class MOFSSv9s2 extends Algorithm {
 			  return this.leaders_; //Erro do loop infinito
 		  }
 		  
-		  // Alimenta‹o
+		  // Alimentaï¿½ï¿½o
 		  calculateFeedOper();
 		  		  
 		  // Movimento Coletivo Instintivo
@@ -611,14 +603,14 @@ public class MOFSSv9s2 extends Algorithm {
 		  }
 		  distance_.crowdingDistanceAssignment(leaders_, problem_.getNumberOfObjectives());
 		  
-		  // Cria uma perturba‹o (movimento aleat—rio) no arquivo externo
+		  // Cria uma perturbaï¿½ï¿½o (movimento aleatï¿½rio) no arquivo externo
 		  //pertubationLeaders();
 		  
-		   // Plota o gr‡fico geral, sem ser por movimento em separado
+		   // Plota o grï¿½fico geral, sem ser por movimento em separado
 		  //plotGraph();
 		  
 		  System.out.println("Peso Cardume Passado: " + lastTotFitness_ + " | Peso Cardume: " + totFitness_);
-		  System.out.println("Qtd dominadas: " + countD_ + " | Qtd N‹o dominadas: " + countND_ + " | Qtd indiferentes: " + countIND_);
+		  System.out.println("Qtd dominadas: " + countD_ + " | Qtd Nï¿½o dominadas: " + countND_ + " | Qtd indiferentes: " + countIND_);
 		  if (countD_ >= countND_){
 			  System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
 		  }else{

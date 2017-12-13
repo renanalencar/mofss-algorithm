@@ -23,10 +23,10 @@ package hidra.many.metaheuristics.smpsogdr3;
 
 import hidra.core.population.BoundArchive;
 import hidra.core.population.HIDRAPopulationAlgorithm;
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 import hidra.many.metaheuristics.comparators.GDComparator;
 import hidra.many.metaheuristics.fitness.GDFitness;
 import hidra.qualityIndicator.QualityIndicator;
@@ -35,7 +35,6 @@ import java.util.Comparator;
 
 import jmetal.util.JMException;
 import jmetal.util.PseudoRandom;
-import jmetal.util.archive.CrowdingArchive;
 import jmetal.util.comparators.DominanceComparator;
 import jmetal.util.wrapper.XReal;
 

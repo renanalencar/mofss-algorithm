@@ -1,6 +1,6 @@
 package hidra.core.util;
 
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.SolutionSet;
 
 public class HIDRADistanceUtil {
 

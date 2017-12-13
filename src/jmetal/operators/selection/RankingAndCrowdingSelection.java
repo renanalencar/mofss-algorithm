@@ -21,9 +21,8 @@
 
 package jmetal.operators.selection;
 
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Problem;
+import jmetal.core.SolutionSet;
 import jmetal.util.comparators.*;
 import jmetal.util.Configuration;
 import jmetal.util.Distance;

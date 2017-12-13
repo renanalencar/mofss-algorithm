@@ -3,7 +3,7 @@ Federal University of Pernambuco - UFPE
 Center of Informatics (Cin)
 
 University of Pernambuco - UPE
-Engenharia da Computação - Ecomp
+Engenharia da Computaï¿½ï¿½o - Ecomp
 
 This code was created in order to study the scalability
 of the Multiobjective Evolutionary Algorithms in
@@ -15,11 +15,10 @@ problems with many conflicting objectives
 package hidra.many.metaheuristics.cega;
 
 import hidra.experiments.Paramenters;
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.SolutionSet;
-import hidra.metaheuristics.smpso.SMPSO;
+import jmetal.core.Algorithm;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
+import jmetal.core.SolutionSet;
 import hidra.qualityIndicator.QualityIndicator;
 
 import java.io.IOException;
@@ -28,9 +27,7 @@ import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 
 import jmetal.operators.crossover.CrossoverFactory;
-import jmetal.operators.mutation.Mutation;
 import jmetal.operators.mutation.MutationFactory;
-import jmetal.operators.selection.SelectionFactory;
 import jmetal.problems.ProblemFactory;
 import jmetal.problems.DTLZ.DTLZ1;
 import jmetal.util.Configuration;

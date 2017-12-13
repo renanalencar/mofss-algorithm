@@ -22,7 +22,7 @@
 package jmetal.problems;
 
 
-import hidra.jmetal.core.Problem;
+import jmetal.core.Problem;
 
 import java.lang.reflect.Constructor;
 import java.util.Properties;

@@ -2,15 +2,10 @@ package hidra.many.metaheuristics.msops;
 
 import hidra.core.population.HIDRAPopulationAlgorithm;
 import hidra.core.util.Util;
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
-import hidra.many.metaheuristics.cega.CEGAComparator;
-import hidra.many.metaheuristics.cega.CEGAFitness;
-import hidra.many.metaheuristics.cega.Cluster;
-import hidra.many.metaheuristics.cega.Clustering;
-import hidra.many.metaheuristics.cega.NormComparator;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 
 import java.util.HashMap;
 import java.util.List;

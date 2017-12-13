@@ -21,8 +21,8 @@
 
 package jmetal.util.wrapper;
 
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionType;
+import jmetal.core.Solution;
+import jmetal.core.SolutionType;
 import jmetal.encodings.solutionType.ArrayIntSolutionType;
 import jmetal.encodings.solutionType.IntSolutionType;
 import jmetal.encodings.variable.ArrayInt;

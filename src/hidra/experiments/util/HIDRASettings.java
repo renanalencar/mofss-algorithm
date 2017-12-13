@@ -22,13 +22,12 @@
 package hidra.experiments.util;
 
 
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
+import jmetal.core.Algorithm;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
 
 import java.lang.reflect.Field;
 import java.util.HashMap;
-import java.util.Properties;
 
 import jmetal.encodings.solutionType.ArrayRealSolutionType;
 import jmetal.encodings.solutionType.BinaryRealSolutionType;
@@ -39,7 +38,6 @@ import jmetal.operators.crossover.CrossoverFactory;
 import jmetal.operators.mutation.Mutation;
 import jmetal.operators.mutation.MutationFactory;
 import jmetal.util.JMException;
-import jmetal.util.Configuration.*;
 
 /**
  * Class representing Settings objects. 

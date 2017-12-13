@@ -22,15 +22,10 @@
 package jmetal.operators.selection;
 
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 
 import java.util.Comparator;
 import java.util.HashMap;
-
-import jmetal.util.comparators.BinaryTournamentComparator;
-import jmetal.util.comparators.DominanceComparator;
-import jmetal.util.comparators.ObjectiveComparator;
-import jmetal.util.PseudoRandom;
 
 /**
  * This class implements a selection operator used for selecting the worst 

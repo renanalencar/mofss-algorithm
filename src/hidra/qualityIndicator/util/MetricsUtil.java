@@ -22,13 +22,16 @@
 package hidra.qualityIndicator.util;
 
 
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
-
-import java.io.*;
-import java.util.*;
-
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 import jmetal.util.NonDominatedSolutionList;
+
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.StringTokenizer;
 
 /**
  * This class provides some utilities to compute quality indicators. 

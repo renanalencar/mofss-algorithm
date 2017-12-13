@@ -2,9 +2,8 @@ package hidra.experiments.settings;
 
 import hidra.experiments.GlobalSettings;
 import hidra.experiments.util.HIDRASettings;
-import hidra.jmetal.core.Algorithm;
+import jmetal.core.Algorithm;
 import hidra.many.metaheuristics.cega.CEGA;
-import hidra.many.metaheuristics.msops.MSOPS;
 import hidra.qualityIndicator.QualityIndicator;
 
 import java.util.HashMap;
@@ -14,7 +13,6 @@ import jmetal.operators.crossover.CrossoverFactory;
 import jmetal.operators.mutation.Mutation;
 import jmetal.operators.mutation.MutationFactory;
 import jmetal.operators.selection.Selection;
-import jmetal.operators.selection.SelectionFactory;
 import jmetal.problems.ProblemFactory;
 import jmetal.util.JMException;
 

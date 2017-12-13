@@ -21,9 +21,7 @@
 
 package jmetal.experiments.settings;
 
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
+import jmetal.core.Algorithm;
 import hidra.qualityIndicator.QualityIndicator;
 import jmetal.metaheuristics.randomSearch.RandomSearch;
 import jmetal.experiments.Settings;

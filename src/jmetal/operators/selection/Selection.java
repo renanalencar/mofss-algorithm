@@ -22,7 +22,7 @@
 package jmetal.operators.selection;
 
 
-import hidra.jmetal.core.Operator;
+import jmetal.core.Operator;
 
 import java.util.HashMap;
 

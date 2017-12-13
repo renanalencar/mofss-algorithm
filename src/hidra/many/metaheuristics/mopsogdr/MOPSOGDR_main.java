@@ -3,7 +3,7 @@ Federal University of Pernambuco - UFPE
 Center of Informatics (Cin)
 
 University of Pernambuco - UPE
-Engenharia da Computação - Ecomp
+Engenharia da Computaï¿½ï¿½o - Ecomp
 
 This code was created in order to study the scalability
 of the Multiobjective Evolutionary Algorithms in
@@ -41,28 +41,21 @@ package hidra.many.metaheuristics.mopsogdr;
 
 
 
-import hidra.experiments.GlobalSettings;
 import hidra.experiments.Paramenters;
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import hidra.qualityIndicator.QualityIndicator;
 
 import java.io.IOException;
 
 import jmetal.operators.mutation.Mutation;
-import jmetal.operators.mutation.MutationFactory;
 import jmetal.problems.*;
-import jmetal.problems.ZDT.*;
-import jmetal.problems.WFG.*;
 import jmetal.problems.DTLZ.*;
-import jmetal.problems.LZ09.* ;
 import jmetal.util.Configuration;
 import jmetal.util.JMException ;
 
 import java.util.HashMap;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
-
-import sun.awt.GlobalCursorManager;
 
 /**
  * This class executes the SMPSO algorithm described in:

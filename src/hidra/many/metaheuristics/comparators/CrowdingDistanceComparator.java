@@ -22,7 +22,7 @@
 package hidra.many.metaheuristics.comparators;
 
 
-import hidra.jmetal.core.Solution;
+import jmetal.core.Solution;
 
 import java.util.Comparator;
 

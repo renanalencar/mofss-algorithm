@@ -1,6 +1,6 @@
 package hidra.many.metaheuristics.fitness;
 
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.SolutionSet;
 
 public interface Fitness {
 

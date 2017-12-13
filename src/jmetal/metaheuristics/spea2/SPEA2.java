@@ -23,9 +23,7 @@ package jmetal.metaheuristics.spea2;
 
 
 import hidra.gui.PlotManager;
-import hidra.jmetal.core.*;
-
-import java.util.Comparator;
+import jmetal.core.*;
 
 import org.jfree.chart.ChartPanel;
 

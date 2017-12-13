@@ -21,11 +21,9 @@
 
 package hidra.qualityIndicator;
 
-import jmetal.problems.DTLZ.DTLZ;
 import hidra.core.util.Util;
-import hidra.experiments.Paramenters;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Problem;
+import jmetal.core.SolutionSet;
 
 /**
  * QualityIndicator class

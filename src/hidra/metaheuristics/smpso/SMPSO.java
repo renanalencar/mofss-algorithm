@@ -22,10 +22,10 @@
 package hidra.metaheuristics.smpso;
 
 import hidra.core.population.HIDRAPopulationAlgorithm;
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 import hidra.qualityIndicator.Hypervolume;
 import hidra.qualityIndicator.QualityIndicator;
 

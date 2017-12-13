@@ -1,23 +1,15 @@
 package hidra.many.metaheuristics.mofssv1;
 
 import java.util.Comparator;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import org.jfree.chart.ChartPanel;
 
 
-import com.sun.tools.internal.xjc.model.Populatable;
-
 import hidra.gui.PlotManager;
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import hidra.qualityIndicator.Hypervolume;
 import hidra.qualityIndicator.QualityIndicator;
-import jmetal.encodings.solutionType.ArrayRealSolutionType;
-import jmetal.encodings.solutionType.RealSolutionType;
-import jmetal.encodings.variable.ArrayReal;
 import jmetal.util.archive.CrowdingArchive;
-import jmetal.util.comparators.CrowdingComparator;
 import jmetal.util.comparators.CrowdingDistanceComparator;
 import jmetal.util.comparators.DominanceComparator;
 import jmetal.util.wrapper.XReal;
@@ -27,7 +19,7 @@ import jmetal.util.*;
  * This class implements the MOFSS algorithm. 
  * 
  * 
- *     VERSÌO COM ALTERA‚OES SOLICITADAS POR CARMELO EM 11/12 (adequado ao FSS original)
+ *     VERSï¿½O COM ALTERAï¿½OES SOLICITADAS POR CARMELO EM 11/12 (adequado ao FSS original)
  *     
  *     
  * 
@@ -201,8 +193,8 @@ public class MOFSSv8 extends Algorithm {
 		  
 		  System.out.println("CDMAX["+ leadersRoletteWheel + "] = " + front.get(leadersRoletteWheel).getCrowdingDistance());
 		  
-		  // S— funciona se o tipo for RealSolutionType
-		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimens‹o de cada peixe
+		  // Sï¿½ funciona se o tipo for RealSolutionType
+		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimensï¿½o de cada peixe
 			  //particle.setValue(j, PseudoRandom.randDouble(problem_.getLowerLimit(j), problem_.getUpperLimit(j)));
 			  
 			  delta_x_[i][j] = PseudoRandom.randDouble(particle.getValue(j),front.get(leadersRoletteWheel).getDecisionVariables()[j].getValue()) 
@@ -221,13 +213,13 @@ public class MOFSSv8 extends Algorithm {
 		  problem_.evaluate(particleNew);
 		  flag = dominance_.compare(particleNew, particles_.get(i));
 		  /*if (flag == -1) {
-			  //nova part’cula domina part’cula anterior: aumenta peso do peixe
+			  //nova partï¿½cula domina partï¿½cula anterior: aumenta peso do peixe
 			  for (int j=0; j<problem_.getNumberOfVariables(); j++){
 				  particle.setValue(j, particleNew.getDecisionVariables()[j].getValue()) ;
 			  }
 			  particles_.get(i).marked();
 		  }else if (flag == 1){
-			  //nova part’cula n‹o domina part’cula anterior: diminui peso do peixe
+			  //nova partï¿½cula nï¿½o domina partï¿½cula anterior: diminui peso do peixe
 			  System.out.println("A) " + particles_.get(i).getDecisionVariables()[0].getValue() + ", " + particles_.get(i).getDecisionVariables()[1].getValue());
 			  for (int j=0; j<problem_.getNumberOfVariables(); j++){
 				  particle.setValue(j, particleNew.getDecisionVariables()[j].getValue()) ;
@@ -235,7 +227,7 @@ public class MOFSSv8 extends Algorithm {
 			  System.out.println("D) " + particles_.get(i).getDecisionVariables()[0].getValue() + ", " + particles_.get(i).getDecisionVariables()[1].getValue());
 			  particles_.get(i).marked();
 		  }else{
-			  //indifirentes: n‹o altera peso do peixe
+			  //indifirentes: nï¿½o altera peso do peixe
 			  particles_.get(i).unMarked();
 		  }*/
 		  //int flag = dominance_.compare(particles_.get(i), best_[i]);
@@ -255,7 +247,7 @@ public class MOFSSv8 extends Algorithm {
 		  //System.out.println("(" + particles_.get(i).getDecisionVariables()[0].getValue() + " / " + olderParticles.get(i).getDecisionVariables()[0].getValue() + " / " + particleNew.getDecisionVariables()[0].getValue() + " / " + flag + ")");
 	  }
 	  
-	  //calcula o DeltaF e o DeltaX das part’culas
+	  //calcula o DeltaF e o DeltaX das partï¿½culas
 	  calculateDelta(olderParticles);
 	  
 	  totFitness_ = 0;
@@ -346,7 +338,7 @@ public class MOFSSv8 extends Algorithm {
 	  for (int i=0; i<swarmSize_; i++){
 		  XReal particle = new XReal (particles_.get(i));
 		  
-		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimens‹o de cada peixe
+		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimensï¿½o de cada peixe
 			  particle.setValue(j, particle.getValue(j) + imDirection[j]);
 			  
 			  if (particle.getValue(j) < problem_.getLowerLimit(j)) {
@@ -515,8 +507,8 @@ public class MOFSSv8 extends Algorithm {
           }
 		  
 		  System.out.println("Tamanho aquivo externo: " + leaders_.size());
-		  System.out.println("############### Itera‹o " + iterations_ + " ############### " +
-		  					 "\nQtd dominadas: " + countD_ + " | Qtd N‹o dominadas: " + countND_);
+		  System.out.println("############### Iteraï¿½ï¿½o " + iterations_ + " ############### " +
+		  					 "\nQtd dominadas: " + countD_ + " | Qtd Nï¿½o dominadas: " + countND_);
 		  iterations_++;
 	  }
 	  

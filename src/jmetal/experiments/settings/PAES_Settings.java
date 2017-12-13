@@ -21,8 +21,7 @@
 
 package jmetal.experiments.settings;
 
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Problem;
+import jmetal.core.Algorithm;
 import hidra.qualityIndicator.QualityIndicator;
 import jmetal.metaheuristics.paes.*;
 import jmetal.operators.mutation.Mutation;
@@ -30,11 +29,9 @@ import jmetal.operators.mutation.MutationFactory;
 import jmetal.problems.ProblemFactory;
 
 import java.util.HashMap;
-import java.util.Properties;
 
 import jmetal.experiments.Settings;
 import jmetal.util.JMException;
-import jmetal.util.Configuration.*;
 
 /**
  * Settings class of algorithm PAES

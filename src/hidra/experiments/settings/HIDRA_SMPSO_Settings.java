@@ -23,7 +23,7 @@ package hidra.experiments.settings;
 
 import hidra.experiments.GlobalSettings;
 import hidra.experiments.util.HIDRASettings;
-import hidra.jmetal.core.Algorithm;
+import jmetal.core.Algorithm;
 import hidra.metaheuristics.smpso.SMPSO;
 import hidra.qualityIndicator.QualityIndicator;
 

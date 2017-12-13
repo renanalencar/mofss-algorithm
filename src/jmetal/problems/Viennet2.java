@@ -21,7 +21,7 @@
 
 package jmetal.problems;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import jmetal.encodings.solutionType.BinaryRealSolutionType;
 import jmetal.encodings.solutionType.RealSolutionType;
 import jmetal.util.JMException;

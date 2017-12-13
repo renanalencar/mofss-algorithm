@@ -21,21 +21,17 @@
 
 package jmetal.experiments.util;
 
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.SolutionSet;
-import hidra.qualityIndicator.*;
+import jmetal.core.Algorithm;
+import jmetal.core.Problem;
+import jmetal.core.SolutionSet;
 
 import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import jmetal.experiments.Experiment;
 import jmetal.experiments.Settings;
-import jmetal.problems.ProblemFactory;
 import jmetal.util.JMException;
 /**
  * Class implementing the steps to run an experiment

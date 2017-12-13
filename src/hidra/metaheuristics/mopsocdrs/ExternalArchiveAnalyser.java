@@ -8,11 +8,10 @@ package hidra.metaheuristics.mopsocdrs;
 
 
 
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Problem;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 
-import java.util.ArrayList;
 import java.util.Vector;
 
 

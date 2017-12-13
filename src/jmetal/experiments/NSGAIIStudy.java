@@ -22,18 +22,14 @@
 package jmetal.experiments;
 
 
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Problem;
+import jmetal.core.Algorithm;
 
 import java.util.logging.Logger;
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.Properties;
 import java.util.logging.Level;
 
 import jmetal.experiments.settings.NSGAII_Settings;
-import jmetal.experiments.util.RBoxplot;
-import jmetal.experiments.util.RWilcoxon;
 import jmetal.util.JMException;
 
 /**

@@ -2,16 +2,12 @@ package hidra.core.population;
 
 import hidra.core.util.Util;
 import hidra.experiments.GlobalSettings;
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Algorithm;
+import jmetal.core.Problem;
+import jmetal.core.SolutionSet;
 import hidra.qualityIndicator.QualityIndicator;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import jmetal.util.JMException;
-import jmetal.util.Ranking;
 
 public abstract class HIDRAPopulationAlgorithm extends Algorithm{
 	

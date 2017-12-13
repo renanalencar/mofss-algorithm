@@ -1,7 +1,7 @@
 package hidra.experiment.qualityIndicator.calculator;
 
 import hidra.experiments.Paramenters;
-import hidra.jmetal.core.Problem;
+import jmetal.core.Problem;
 import hidra.qualityIndicator.QualityIndicator;
 import hidra.qualityIndicator.util.MetricsUtil;
 

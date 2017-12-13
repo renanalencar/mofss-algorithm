@@ -2,7 +2,7 @@ package hidra.core.population;
 
 
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 
 import java.util.Comparator;
 

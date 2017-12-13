@@ -1,7 +1,7 @@
 package hidra.many.metaheuristics.fitness;
 
 import hidra.core.util.Util;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.SolutionSet;
 import hidra.many.metaheuristics.smpsocdr.ParetoFrontUtil;
 
 public class PropostFitness implements Fitness{

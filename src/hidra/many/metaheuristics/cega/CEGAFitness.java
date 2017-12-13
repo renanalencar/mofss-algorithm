@@ -1,13 +1,8 @@
 package hidra.many.metaheuristics.cega;
 
 
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
-
-import java.util.HashMap;
-
-import jmetal.operators.selection.Selection;
-import jmetal.util.JMException;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 
 public class CEGAFitness {
 

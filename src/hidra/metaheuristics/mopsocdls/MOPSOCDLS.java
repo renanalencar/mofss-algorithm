@@ -1,10 +1,10 @@
 package hidra.metaheuristics.mopsocdls;
 
 import hidra.core.population.HIDRAPopulationAlgorithm;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
-import hidra.jmetal.core.Variable;
+import jmetal.core.Problem;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
+import jmetal.core.Variable;
 
 import java.util.ArrayList;
 import java.util.Comparator;

@@ -22,12 +22,7 @@
 package jmetal.encodings.variable;
 
 
-import hidra.jmetal.core.Variable;
-
-import java.util.BitSet;
-
-import jmetal.util.PseudoRandom;
-import jmetal.util.Configuration.*;
+import jmetal.core.Variable;
 
 /** This class extends the Binary class to represent a Real variable encoded by
  * a binary string

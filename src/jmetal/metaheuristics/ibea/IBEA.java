@@ -21,17 +21,13 @@
 
 package jmetal.metaheuristics.ibea;
 
-import hidra.jmetal.core.*;
-import hidra.qualityIndicator.Epsilon;
-import hidra.qualityIndicator.Hypervolume;
+import jmetal.core.*;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
 import jmetal.util.comparators.DominanceComparator;
-import jmetal.util.comparators.FitnessComparator;
 import jmetal.util.*;
 
 /**

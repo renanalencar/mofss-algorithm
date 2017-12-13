@@ -1,24 +1,15 @@
 package hidra.many.metaheuristics.mofssv1;
 
 import java.util.Comparator;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import org.jfree.chart.ChartPanel;
 
 
-import com.sun.tools.internal.xjc.model.Populatable;
-
 import hidra.gui.PlotManager;
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import hidra.qualityIndicator.Hypervolume;
 import hidra.qualityIndicator.QualityIndicator;
-import jmetal.encodings.solutionType.ArrayRealSolutionType;
-import jmetal.encodings.solutionType.RealSolutionType;
-import jmetal.encodings.variable.ArrayReal;
 import jmetal.util.archive.CrowdingArchive;
-import jmetal.util.comparators.CrowdingComparator;
-import jmetal.util.comparators.CrowdingDistanceComparator;
 import jmetal.util.comparators.DominanceComparator;
 import jmetal.util.wrapper.XReal;
 import jmetal.util.*;
@@ -27,10 +18,10 @@ import jmetal.util.*;
  * This class implements the MOFSS algorithm. 
  * 
  * 
- *     VERSÃO COM ARQUIVO EXTERNO DAS SOLUÇÕES NÃO-DOMINADAS INFLUENCIANDO NO MOVIMENTO INDIVIDUAL
+ *     VERSÔøΩO COM ARQUIVO EXTERNO DAS SOLUÔøΩÔøΩES NÔøΩO-DOMINADAS INFLUENCIANDO NO MOVIMENTO INDIVIDUAL
  *     
- *     SEM MOVIMENTO COLETIVO INSTINTIVO (todas as partículas são sempre movimentadas)
- *     # atualização do STEP de forma diferente do original FSS
+ *     SEM MOVIMENTO COLETIVO INSTINTIVO (todas as partÔøΩculas sÔøΩo sempre movimentadas)
+ *     # atualizaÔøΩÔøΩo do STEP de forma diferente do original FSS
  * 
  */
 public class MOFSSv6 extends Algorithm {
@@ -121,8 +112,8 @@ public class MOFSSv6 extends Algorithm {
 		  XReal particle = new XReal (particles_.get(i));
 		  int leadersRandom = (int) (Math.random()*leaders_.size());
 		  
-		  // Só funciona se o tipo for RealSolutionType
-		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimensão de cada peixe
+		  // SÔøΩ funciona se o tipo for RealSolutionType
+		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimensÔøΩo de cada peixe
 			  //particle.setValue(j, PseudoRandom.randDouble(problem_.getLowerLimit(j), problem_.getUpperLimit(j)));
 			  if (leaders_.size() < 1){
 				  particleCopy.getDecisionVariables()[j].setValue(particleCopy.getDecisionVariables()[j].getValue() + 
@@ -151,12 +142,12 @@ public class MOFSSv6 extends Algorithm {
 		  
 		  /*
 		   * 
-		   *  VERIFICAR O PORQUE DO PROBLEMA COM A ALIMENTAÇÃO DO CARDUME!
+		   *  VERIFICAR O PORQUE DO PROBLEMA COM A ALIMENTAÔøΩÔøΩO DO CARDUME!
 		   * 
 		   */
 		  
 		  /*int flag = dominance_.compare(particleCopy, particles_.get(i));
-		  if (flag != 1) { // a nova partícula é melhor que a partícula anterior  
+		  if (flag != 1) { // a nova partÔøΩcula ÔøΩ melhor que a partÔøΩcula anterior  
 			  Solution olderParticle = new Solution (particles_.get(i));
 			  
 			  for (int j=0; j<problem_.getNumberOfVariables(); j++){
@@ -231,7 +222,7 @@ public class MOFSSv6 extends Algorithm {
 	  for (int i=0; i<swarmSize_; i++){
 		  XReal particle = new XReal (particles_.get(i));
 		  
-		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimensão de cada peixe
+		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimensÔøΩo de cada peixe
 			  particle.setValue(j, particle.getValue(j) + imDirection[j]);
 			  
 			  if (particle.getValue(j) < problem_.getLowerLimit(j)) {
@@ -386,7 +377,7 @@ public class MOFSSv6 extends Algorithm {
           }
 		  
 		  System.out.println("Tamanho aquivo externo: " + leaders_.size());
-		  System.out.println("Iteração " + iterations_ + ": Qtd particulas dominadas: " + count_);
+		  System.out.println("IteraÔøΩÔøΩo " + iterations_ + ": Qtd particulas dominadas: " + count_);
 		  iterations_++;
 	  }
 	  

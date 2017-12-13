@@ -21,10 +21,8 @@
 
 package jmetal.experiments.settings;
 
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
+import jmetal.core.Algorithm;
+import jmetal.core.Operator;
 import hidra.qualityIndicator.QualityIndicator;
 import jmetal.metaheuristics.nsgaII.*;
 import jmetal.operators.crossover.CrossoverFactory;
@@ -33,11 +31,9 @@ import jmetal.operators.selection.SelectionFactory;
 import jmetal.problems.ProblemFactory;
 
 import java.util.HashMap;
-import java.util.Properties;
 
 import jmetal.experiments.Settings;
 import jmetal.util.JMException;
-import jmetal.util.Configuration.*;
 
 /**
  * Settings class of algorithm NSGA-II (binary encoding)

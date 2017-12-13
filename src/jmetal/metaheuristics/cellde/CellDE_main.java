@@ -20,7 +20,7 @@
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 package jmetal.metaheuristics.cellde;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import hidra.qualityIndicator.QualityIndicator;
 import jmetal.operators.crossover.*;
 import jmetal.operators.selection.*;

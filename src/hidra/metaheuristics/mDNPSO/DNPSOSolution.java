@@ -1,7 +1,7 @@
 package hidra.metaheuristics.mDNPSO;
 
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
+import jmetal.core.Problem;
+import jmetal.core.Solution;
 
 public class DNPSOSolution extends Solution{
 	

@@ -21,8 +21,7 @@
 
 package hidra.experiments.util;
 
-import hidra.core.util.Util;
-import hidra.jmetal.core.Algorithm;
+import jmetal.core.Algorithm;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -37,8 +36,6 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Properties;
 import java.util.Vector;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 import jmetal.experiments.util.Statistics;
 import jmetal.util.JMException;

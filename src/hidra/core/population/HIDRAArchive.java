@@ -1,13 +1,12 @@
 package hidra.core.population;
 
 
-import hidra.jmetal.core.Solution;
+import jmetal.core.Solution;
 
 import java.util.Comparator;
 
 import jmetal.util.Distance;
 import jmetal.util.archive.Archive;
-import jmetal.util.comparators.CrowdingDistanceComparator;
 import jmetal.util.comparators.DominanceComparator;
 import jmetal.util.comparators.EqualSolutions;
 

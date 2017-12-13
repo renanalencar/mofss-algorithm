@@ -22,7 +22,7 @@
 package hidra.experiments.settings;
 
 import hidra.experiments.util.HIDRASettings;
-import hidra.jmetal.core.Algorithm;
+import jmetal.core.Algorithm;
 import hidra.qualityIndicator.QualityIndicator;
 
 import java.util.HashMap;

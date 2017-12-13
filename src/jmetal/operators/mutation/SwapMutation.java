@@ -22,20 +22,16 @@
 package jmetal.operators.mutation;
 
 
-import hidra.jmetal.core.Solution;
+import jmetal.core.Solution;
 
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Properties;
 
-import jmetal.operators.mutation.Mutation;
 import jmetal.util.Configuration;
 import jmetal.util.JMException;
 import jmetal.util.PseudoRandom;
-import jmetal.encodings.solutionType.ArrayRealSolutionType;
 import jmetal.encodings.solutionType.PermutationSolutionType;
-import jmetal.encodings.solutionType.RealSolutionType;
 import jmetal.encodings.variable.*;
 
 /**

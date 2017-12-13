@@ -19,7 +19,7 @@
 //  You should have received a copy of the GNU Lesser General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-package hidra.jmetal.core;
+package jmetal.core;
 
 /**
  * Abstract class representing solution types, which define the types of the 

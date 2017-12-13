@@ -21,12 +21,11 @@
 //  You should have received a copy of the GNU Lesser General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-package hidra.jmetal.core;
+package jmetal.core;
 
 import java.io.Serializable;
 
 import jmetal.encodings.variable.Binary;
-import jmetal.util.Configuration.*;
 
 /**
  * Class representing a solution for a problem.

@@ -1,6 +1,6 @@
 package hidra.many.metaheuristics.fitness;
 
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.SolutionSet;
 import jmetal.util.comparators.ObjectiveComparator;
 
 public class CrowdingDistanceFitness implements Fitness{

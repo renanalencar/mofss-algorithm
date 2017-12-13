@@ -21,13 +21,11 @@
 
 package jmetal.problems;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import jmetal.encodings.solutionType.ArrayRealSolutionType;
 import jmetal.encodings.solutionType.BinaryRealSolutionType;
 import jmetal.encodings.solutionType.RealSolutionType;
-import jmetal.encodings.variable.ArrayReal;
 import jmetal.util.JMException;
-import jmetal.util.Configuration.*;
 import jmetal.util.wrapper.XReal;
 
 /** 

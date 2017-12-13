@@ -22,11 +22,9 @@
 package jmetal.util.comparators;
 
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 
 import java.util.*;
-
-import jmetal.util.PseudoRandom;
 
 /**
  * This class implements a <code>Comparator</code> (a method for comparing

@@ -1,7 +1,7 @@
 package hidra.many.metaheuristics.cega;
 
 
-import hidra.jmetal.core.Solution;
+import jmetal.core.Solution;
 
 import java.util.Comparator;
 

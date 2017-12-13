@@ -22,14 +22,13 @@
 package jmetal.problems.LZ09;
 
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 
 import java.util.Vector;
 
 import jmetal.encodings.solutionType.BinaryRealSolutionType;
 import jmetal.encodings.solutionType.RealSolutionType;
 import jmetal.util.JMException;
-import jmetal.util.Configuration.*;
 
 /** 
  * Class representing problem LZ09_F3 

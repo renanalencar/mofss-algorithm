@@ -1,13 +1,7 @@
 package hidra.qualityIndicator;
 
 import jmetal.problems.DTLZ.DTLZ;
-import jmetal.problems.DTLZ.DTLZ1;
-import jmetal.problems.DTLZ.DTLZ2;
-import jmetal.problems.DTLZ.DTLZ3;
-import jmetal.problems.DTLZ.DTLZ4;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Problem;
 
 public class Spacing {
 

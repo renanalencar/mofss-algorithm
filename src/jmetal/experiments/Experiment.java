@@ -22,8 +22,7 @@
 package jmetal.experiments;
 
 import hidra.core.util.Util;
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Problem;
+import jmetal.core.Algorithm;
 
 import java.io.BufferedReader;
 import java.io.File;

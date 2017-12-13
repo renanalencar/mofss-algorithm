@@ -1,8 +1,7 @@
 package hidra.many.metaheuristics.cega;
 
 
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.SolutionSet;
 
 import java.util.ArrayList;
 import java.util.List;

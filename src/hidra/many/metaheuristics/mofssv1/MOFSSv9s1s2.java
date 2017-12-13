@@ -1,27 +1,19 @@
 package hidra.many.metaheuristics.mofssv1;
 
-import java.util.Comparator;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-import org.jfree.chart.ChartPanel;
-
-
-import com.sun.tools.internal.xjc.model.Populatable;
-
 import hidra.gui.PlotManager;
-import hidra.jmetal.core.*;
 import hidra.qualityIndicator.Hypervolume;
 import hidra.qualityIndicator.QualityIndicator;
-import jmetal.encodings.solutionType.ArrayRealSolutionType;
-import jmetal.encodings.solutionType.RealSolutionType;
-import jmetal.encodings.variable.ArrayReal;
+import jmetal.core.*;
+import jmetal.util.Distance;
+import jmetal.util.JMException;
+import jmetal.util.PseudoRandom;
 import jmetal.util.archive.CrowdingArchive;
-import jmetal.util.comparators.CrowdingComparator;
 import jmetal.util.comparators.CrowdingDistanceComparator;
 import jmetal.util.comparators.DominanceComparator;
 import jmetal.util.wrapper.XReal;
-import jmetal.util.*;
+import org.jfree.chart.ChartPanel;
+
+import java.util.Comparator;
 
 /**
  * This class implements the MOFSS algorithm. 

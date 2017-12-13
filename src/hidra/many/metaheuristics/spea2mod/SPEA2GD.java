@@ -22,13 +22,12 @@
 package hidra.many.metaheuristics.spea2mod;
 
 import hidra.core.population.HIDRAPopulationAlgorithm;
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 import jmetal.util.JMException;
 import jmetal.util.Ranking;
-import jmetal.util.Spea2Fitness;
 
 /** 
  * This class representing the SPEA2 algorithm

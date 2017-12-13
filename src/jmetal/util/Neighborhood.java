@@ -21,7 +21,7 @@
 
 package jmetal.util;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 
 /**
  * Class representing neighborhoods for a <code>Solution</code> into a

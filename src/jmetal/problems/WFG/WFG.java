@@ -22,9 +22,8 @@
 package jmetal.problems.WFG;
 
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 
-import java.io.*;
 import java.util.Random;
 
 import jmetal.encodings.solutionType.BinaryRealSolutionType;

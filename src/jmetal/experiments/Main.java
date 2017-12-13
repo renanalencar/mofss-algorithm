@@ -21,16 +21,13 @@
 
 package jmetal.experiments;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import hidra.qualityIndicator.QualityIndicator;
-import jmetal.problems.*  ;
 
 import jmetal.util.Configuration;
 import jmetal.util.JMException;
 import java.io.IOException;
 
-import java.util.HashMap;
-import java.util.Properties;
 import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 

@@ -21,20 +21,19 @@
 
 package hidra.many.metaheuristics.mofssv1;
 
-import java.util.Comparator;
-
-import hidra.jmetal.core.*;
 import hidra.qualityIndicator.Hypervolume;
 import hidra.qualityIndicator.QualityIndicator;
-import jmetal.encodings.solutionType.ArrayRealSolutionType;
-import jmetal.encodings.solutionType.RealSolutionType;
-import jmetal.encodings.variable.ArrayReal;
-import jmetal.util.archive.CrowdingArchive;
-import jmetal.util.comparators.CrowdingComparator;
-import jmetal.util.comparators.CrowdingDistanceComparator;
+import jmetal.core.Algorithm;
+import jmetal.core.Problem;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
+import jmetal.util.Distance;
+import jmetal.util.JMException;
+import jmetal.util.PseudoRandom;
 import jmetal.util.comparators.DominanceComparator;
 import jmetal.util.wrapper.XReal;
-import jmetal.util.*;
+
+import java.util.Comparator;
 
 /**
  * This class implements the NSGA-II algorithm. 
@@ -115,8 +114,8 @@ public class MOFSS extends Algorithm {
 		  Solution particleCopy = new Solution (particles_.get(i));
 		  XReal particle = new XReal (particles_.get(i));
 		  
-		  // S— funciona se o tipo for RealSolutionType
-		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimens‹o de cada peixe
+		  // Sï¿½ funciona se o tipo for RealSolutionType
+		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimensï¿½o de cada peixe
 			  //particle.setValue(j, PseudoRandom.randDouble(problem_.getLowerLimit(j), problem_.getUpperLimit(j)));
 			  particleCopy.getDecisionVariables()[j].setValue(particleCopy.getDecisionVariables()[j].getValue() + 
 					  										  PseudoRandom.randDouble(-1,1) * this.step_);
@@ -126,7 +125,7 @@ public class MOFSS extends Algorithm {
 		  problem_.evaluate(particleCopy);
 		  
 		  int flag = dominance_.compare(particleCopy, particles_.get(i));
-		  if (flag != 1) { // a nova part’cula Ž melhor que a part’cula anterior  
+		  if (flag != 1) { // a nova partï¿½cula ï¿½ melhor que a partï¿½cula anterior  
 			  Solution olderParticle = new Solution (particles_.get(i));
 			  
 			  for (int j=0; j<problem_.getNumberOfVariables(); j++){
@@ -215,7 +214,7 @@ public class MOFSS extends Algorithm {
 	  for (int i=0; i<swarmSize_; i++){
 		  XReal particle = new XReal (particles_.get(i));
 		  
-		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimens‹o de cada peixe
+		  for (int j=0; j<problem_.getNumberOfVariables(); j++){ //para cada dimensï¿½o de cada peixe
 			  particle.setValue(j, particle.getValue(j) + imDirection);
 		  }
 	  }
@@ -266,7 +265,7 @@ public class MOFSS extends Algorithm {
 			  delta_x_[i] = 0;
 		  }
 		  
-		  System.out.println("Itera‹o " + iterations_ + ": Qtd particulas dominadas: " + count_);
+		  System.out.println("Iteraï¿½ï¿½o " + iterations_ + ": Qtd particulas dominadas: " + count_);
 		  iterations_++;
 	  }
 	  

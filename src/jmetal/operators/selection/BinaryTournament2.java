@@ -22,9 +22,8 @@
 package jmetal.operators.selection;
 
 
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 
 import java.util.Comparator;
 import java.util.HashMap;

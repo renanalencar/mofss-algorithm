@@ -19,12 +19,11 @@
 //  You should have received a copy of the GNU Lesser General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-package hidra.jmetal.core;
-
-import java.io.Serializable;
+package jmetal.core;
 
 import jmetal.util.JMException;
-import jmetal.util.Configuration.*;
+
+import java.io.Serializable;
 
 /**
  * Abstract class representing a multiobjective optimization problem

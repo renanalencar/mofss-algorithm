@@ -21,7 +21,7 @@
 
 package jmetal.problems.ZDT;
 
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import jmetal.encodings.solutionType.BinarySolutionType;
 import jmetal.encodings.variable.*;
 

@@ -21,10 +21,10 @@
 
 package jmetal.operators.localSearch;
 
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 import jmetal.util.comparators.DominanceComparator;
 import jmetal.util.comparators.OverallConstraintViolationComparator;
 import jmetal.operators.mutation.Mutation;

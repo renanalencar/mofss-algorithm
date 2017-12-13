@@ -1,11 +1,10 @@
 package hidra.many.metaheuristics.smopsomdfa;
 
-import hidra.core.population.BoundArchive;
 import hidra.core.population.HIDRAPopulationAlgorithm;
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.Solution;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
+import jmetal.core.Solution;
+import jmetal.core.SolutionSet;
 import hidra.many.metaheuristics.cega.Ranking2;
 import hidra.many.metaheuristics.comparators.MDFAFitnessComparator;
 import hidra.many.metaheuristics.fitness.Fitness;

@@ -19,7 +19,7 @@
 //  You should have received a copy of the GNU Lesser General Public License
 //  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-package hidra.jmetal.core;
+package jmetal.core;
 
 import java.io.*;
 import java.text.DecimalFormat;
@@ -252,7 +252,7 @@ public class SolutionSet implements Serializable {
    * @param path The output file name
    */
   
-  /* Acrescentada esta fun‹o para poder escrever em arquivo as mtricas 
+  /* Acrescentada esta funï¿½ï¿½o para poder escrever em arquivo as mï¿½tricas 
    * Augusto Guimaraes 30.10.2012*/
   public void printQualityIndicatorToFile(String path, String[] name, double[] value){
     try {
@@ -276,7 +276,7 @@ public class SolutionSet implements Serializable {
     }
   } // printQualityIndicatorToFile
   
-  /* Acrescentada esta fun‹o para poder escrever em arquivo as mtricas 
+  /* Acrescentada esta funï¿½ï¿½o para poder escrever em arquivo as mï¿½tricas 
    * Augusto Guimaraes 28.01.2013*/
   public void printMultipleQIToFile(String path, double[] value){
 	    try {
@@ -300,8 +300,8 @@ public class SolutionSet implements Serializable {
 	    }
 	  } // printMultipleQIToFile
   
-  /* Acrescentada esta fun‹o para poder escrever em arquivo as quantidade de part’culas
-   * dominadas, n‹o-dominadas e indiferentes relativas ao movimento individual 
+  /* Acrescentada esta funï¿½ï¿½o para poder escrever em arquivo as quantidade de partï¿½culas
+   * dominadas, nï¿½o-dominadas e indiferentes relativas ao movimento individual 
    * Augusto Guimaraes 28.01.2013 */
   public void printDominanceToFile(String path, int maxIteration, double[][] value){
 	   
@@ -329,7 +329,7 @@ public class SolutionSet implements Serializable {
 	  	
   } // printDominanceToFile
   
-  /* Acrescentada esta fun‹o para poder escrever em arquivo as mtricas 
+  /* Acrescentada esta funï¿½ï¿½o para poder escrever em arquivo as mï¿½tricas 
    * Augusto Guimaraes 28.11.2012 */
   public void printFitnessToFile(String path){
     try {

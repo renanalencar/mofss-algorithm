@@ -21,10 +21,10 @@
 
 package hidra.metaheuristics.nsgaII;
 
-import hidra.jmetal.core.Algorithm;
-import hidra.jmetal.core.Operator;
-import hidra.jmetal.core.Problem;
-import hidra.jmetal.core.SolutionSet;
+import jmetal.core.Algorithm;
+import jmetal.core.Operator;
+import jmetal.core.Problem;
+import jmetal.core.SolutionSet;
 import hidra.qualityIndicator.QualityIndicator;
 
 import java.io.IOException;

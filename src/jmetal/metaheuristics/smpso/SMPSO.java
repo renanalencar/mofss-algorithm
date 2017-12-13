@@ -22,7 +22,7 @@
 package jmetal.metaheuristics.smpso;
 
 import hidra.gui.PlotManager;
-import hidra.jmetal.core.*;
+import jmetal.core.*;
 import hidra.qualityIndicator.Hypervolume;
 import hidra.qualityIndicator.QualityIndicator;
 
@@ -32,7 +32,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import jmetal.util.archive.CrowdingArchive;
 import jmetal.util.comparators.*;
-import jmetal.operators.mutation.*;
 import jmetal.util.*;
 import jmetal.util.wrapper.XReal;
 
@@ -220,7 +219,7 @@ public class SMPSO extends Algorithm {
     System.out.println(archiveSize_);
     System.out.println(maxIterations_);
     System.out.println(problem_.getNumberOfObjectives());
-    System.out.println(problem_.getNumberOfVariables()); //dimens›es*/
+    System.out.println(problem_.getNumberOfVariables()); //dimensï¿½es*/
 
     iteration_ = 0 ;
 
